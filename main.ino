@@ -43,11 +43,8 @@ void loop() {
   lcd.print(types[sel]);
   lcd.setCursor(0, 1);
   if(it>0) {
-    if(it>10) {
-      lcd.print(">100");
-    } else {
-      lcd.print(it*10);
-    }
+    it--;
+    lcd.print(it*10);
   } else {
     lcd.print("<0");
   }

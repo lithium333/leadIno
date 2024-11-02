@@ -1,5 +1,5 @@
 # leadIno
-Arduino based 12V lead-acid batteries
+Arduino based 12V lead-acid batteries level-indicator
 
 # Code configuration:
 - Arduino Uno 1.1V internal reference is used for ADC to avoid 5V fluctuations propagation on measured battery voltage
